@@ -1,0 +1,222 @@
+{
+    "identifier": "i1512735831659316",
+    "serial": "item_5a2a9ccebc5a1813903569",
+    "qtiClass": "assessmentItem",
+    "attributes": {
+        "identifier": "i1512735831659316",
+        "title": "PointLIneGraph",
+        "label": "PointLIneGraph",
+        "xml:lang": "en-US",
+        "adaptive": false,
+        "timeDependent": false,
+        "toolName": "TAO",
+        "toolVersion": "3.3.0-sprint64 1\/2",
+        "class": ""
+    },
+    "body": {
+        "serial": "container_containeritembody_5a2a9ccebc58a387432129",
+        "body": "\n        <div class=\"grid-row\">\n            <div class=\"col-12\">\n                {{interaction_imsportablecustominteraction_5a2a9ccebde5a721094549}}\n            <\/div>\n        <\/div>\n    ",
+        "elements": {
+            "interaction_imsportablecustominteraction_5a2a9ccebde5a721094549": {
+                "serial": "interaction_imsportablecustominteraction_5a2a9ccebde5a721094549",
+                "qtiClass": "customInteraction",
+                "attributes": {
+                    "responseIdentifier": "RESPONSE"
+                },
+                "debug": {
+                    "relatedItem": "item_5a2a9ccebc5a1813903569"
+                },
+                "choices": {},
+                "typeIdentifier": "graphPointLineGraphInteraction",
+                "markup": "\n                            <div class=\"graphPointLineGraphInteraction\">\n                                <div class=\"shape-panel\">\n                                    <div class=\"shape-container\"><\/div>\n                                <\/div>\n                            <\/div>\n                        ",
+                "version": "0.0.0",
+                "properties": {
+                    "draggable": "true",
+                    "graphTitle": "Graph Test",
+                    "graphTitleRequired": "true",
+                    "graphType": "line",
+                    "maxPoints": "6",
+                    "plotColor": "#0000FF",
+                    "plotThickness": "6",
+                    "pointColor": "#0000FF",
+                    "pointGlow": "true",
+                    "pointRadius": "8",
+                    "segment": "true",
+                    "weight": "1",
+                    "width": "450",
+                    "height": "300",
+                    "staticPoints": "[]",
+                    "staticPointColor": "#AA00AA",
+                    "staticPointGlow": "",
+                    "staticPointRadius": "6",
+                    "staticPointLabelSize": "10",
+                    "staticPointLabelWeight": "0",
+                    "staticPointLabelColor": "#FFF",
+                    "staticDisplayPoints": "true",
+                    "staticLineColor": "#AA00AA",
+                    "staticLineThickness": "4",
+                    "staticShowLine": "true",
+                    "xAllowOuter": "true",
+                    "xBorderWeight": "3",
+                    "xStep": "1",
+                    "xLabel": "t",
+                    "xTitle": "Time",
+                    "xStart": "0",
+                    "xEnd": "7",
+                    "xSubStep": "2",
+                    "xWeight": "3",
+                    "yAllowOuter": "true",
+                    "yBorderWeight": "3",
+                    "yStep": "10",
+                    "yLabel": "P",
+                    "yTitle": "Power",
+                    "yStart": "0",
+                    "yEnd": "100",
+                    "ySubStep": "2",
+                    "yWeight": "3"
+                },
+                "config": [],
+                "modules": {},
+                "xmlns": "http:\/\/www.imsglobal.org\/xsd\/portableCustomInteraction_v1"
+            }
+        },
+        "debug": {
+            "relatedItem": "item_5a2a9ccebc5a1813903569"
+        }
+    },
+    "debug": {
+        "relatedItem": "item_5a2a9ccebc5a1813903569"
+    },
+    "namespaces": {
+        "": "http:\/\/www.imsglobal.org\/xsd\/imsqti_v2p2",
+        "m": "http:\/\/www.w3.org\/1998\/Math\/MathML",
+        "xsi": "http:\/\/www.w3.org\/2001\/XMLSchema-instance"
+    },
+    "schemaLocations": {
+        "http:\/\/www.imsglobal.org\/xsd\/imsqti_v2p2": "http:\/\/www.imsglobal.org\/xsd\/qti\/qtiv2p2\/imsqti_v2p2.xsd"
+    },
+    "stylesheets": {
+        "stylesheet_5a2a9ccebca9f240712317": {
+            "serial": "stylesheet_5a2a9ccebca9f240712317",
+            "qtiClass": "stylesheet",
+            "attributes": {
+                "href": "style\/custom\/tao-user-styles.css",
+                "type": "text\/css",
+                "media": "all",
+                "title": ""
+            },
+            "debug": {
+                "relatedItem": "item_5a2a9ccebc5a1813903569"
+            }
+        }
+    },
+    "outcomes": {
+        "outcomedeclaration_5a2a9ccebd033872248706": {
+            "identifier": "SCORE",
+            "serial": "outcomedeclaration_5a2a9ccebd033872248706",
+            "qtiClass": "outcomeDeclaration",
+            "attributes": {
+                "identifier": "SCORE",
+                "cardinality": "single",
+                "baseType": "float"
+            },
+            "debug": {
+                "relatedItem": "item_5a2a9ccebc5a1813903569"
+            },
+            "defaultValue": null
+        }
+    },
+    "responses": {
+        "responsedeclaration_5a2a9ccebce5f577840868": {
+            "identifier": "RESPONSE",
+            "serial": "responsedeclaration_5a2a9ccebce5f577840868",
+            "qtiClass": "responseDeclaration",
+            "attributes": {
+                "identifier": "RESPONSE",
+                "cardinality": "multiple",
+                "baseType": "string"
+            },
+            "debug": {
+                "relatedItem": "item_5a2a9ccebc5a1813903569"
+            },
+            "defaultValue": [],
+            "mapping": [],
+            "areaMapping": [],
+            "howMatch": "http:\/\/www.imsglobal.org\/question\/qti_v2p1\/rptemplates\/match_correct",
+            "correctResponses": [],
+            "mappingAttributes": {
+                "defaultValue": 0
+            },
+            "feedbackRules": {}
+        }
+    },
+    "feedbacks": {},
+    "responseProcessing": {
+        "serial": "response_templatesdriven_5a2a9ccebe3f6557392502",
+        "qtiClass": "responseProcessing",
+        "attributes": {},
+        "debug": {
+            "relatedItem": "item_5a2a9ccebc5a1813903569"
+        },
+        "processingType": "templateDriven",
+        "responseRules": [
+            {
+                "qtiClass": "responseCondition",
+                "responseIf": {
+                    "qtiClass": "responseIf",
+                    "expression": {
+                        "qtiClass": "match",
+                        "expressions": [
+                            {
+                                "qtiClass": "variable",
+                                "attributes": {
+                                    "identifier": "RESPONSE"
+                                }
+                            },
+                            {
+                                "qtiClass": "correct",
+                                "attributes": {
+                                    "identifier": "RESPONSE"
+                                }
+                            }
+                        ]
+                    },
+                    "responseRules": [
+                        {
+                            "qtiClass": "setOutcomeValue",
+                            "attributes": {
+                                "identifier": "SCORE"
+                            },
+                            "expression": {
+                                "qtiClass": "baseValue",
+                                "attributes": {
+                                    "baseType": "float"
+                                },
+                                "value": "1"
+                            }
+                        }
+                    ]
+                },
+                "responseElse": {
+                    "qtiClass": "responseElse",
+                    "responseRules": [
+                        {
+                            "qtiClass": "setOutcomeValue",
+                            "attributes": {
+                                "identifier": "SCORE"
+                            },
+                            "expression": {
+                                "qtiClass": "baseValue",
+                                "attributes": {
+                                    "baseType": "float"
+                                },
+                                "value": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "apipAccessibility": ""
+}

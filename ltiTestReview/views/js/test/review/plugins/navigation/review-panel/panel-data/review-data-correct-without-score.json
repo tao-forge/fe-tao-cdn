@@ -1,0 +1,118 @@
+{
+  "parts": [
+    {
+      "id": "Introduction",
+      "label": "Introduction",
+      "position": 0,
+      "sections": [
+        {
+          "id": "assessmentSection-1",
+          "label": "Section 1",
+          "position": 0,
+          "items": [
+            {
+              "id": "item-1",
+              "label": "Example_0_Introduction",
+              "informational": true,
+              "skipped": false,
+              "withScore": false,
+              "position": 0,
+              "type": "info"
+            }
+          ],
+          "withScore": false
+        }
+      ],
+      "withScore": false
+    },
+    {
+      "id": "QTIExamples",
+      "label": "QTIExamples",
+      "position": 1,
+      "sections": [
+        {
+          "id": "assessmentSection-2",
+          "label": "Section 1",
+          "position": 1,
+          "items": [
+            {
+              "id": "item-2",
+              "label": "example_1_TAO",
+              "informational": false,
+              "skipped": false,
+              "withScore": false,
+              "position": 1,
+              "type": "default"
+            },
+            {
+              "id": "item-3",
+              "label": "example_2_Math",
+              "informational": false,
+              "skipped": false,
+              "withScore": false,
+              "position": 2,
+              "type": "default"
+            },
+            {
+              "id": "item-4",
+              "label": "Example_3_Baudelaire",
+              "informational": false,
+              "skipped": false,
+              "withScore": false,
+              "position": 3,
+              "type": "default"
+            },
+            {
+              "id": "item-5",
+              "label": "Example_4_Appearance",
+              "informational": false,
+              "skipped": false,
+              "withScore": false,
+              "position": 4,
+              "type": "default"
+            },
+            {
+              "id": "item-6",
+              "label": "Example_5_picasso",
+              "informational": false,
+              "skipped": false,
+              "withScore": false,
+              "position": 5,
+              "type": "default"
+            },
+            {
+              "id": "item-7",
+              "label": "Example_6_Geography",
+              "informational": false,
+              "skipped": false,
+              "withScore": false,
+              "position": 6,
+              "type": "default"
+            },
+            {
+              "id": "item-8",
+              "label": "Example_7_Geo 2",
+              "informational": false,
+              "skipped": false,
+              "withScore": false,
+              "position": 7,
+              "type": "default"
+            },
+            {
+              "id": "item-9",
+              "label": "Example_8_Geo 3",
+              "informational": false,
+              "skipped": false,
+              "withScore": false,
+              "position": 8,
+              "type": "default"
+            }
+          ],
+          "withScore": false
+        }
+      ],
+      "withScore": false
+    }
+  ],
+  "withScore": false
+}

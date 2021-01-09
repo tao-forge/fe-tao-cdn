@@ -1,0 +1,260 @@
+{
+    "identifier": "i15124849571846177",
+    "serial": "item_5a2a9c6d88a7c411343054",
+    "qtiClass": "assessmentItem",
+    "attributes": {
+        "identifier": "i15124849571846177",
+        "title": "fractionModel",
+        "label": "fractionModel",
+        "xml:lang": "en-US",
+        "adaptive": false,
+        "timeDependent": false,
+        "toolName": "TAO",
+        "toolVersion": "3.3.0-sprint64 1\/2",
+        "class": ""
+    },
+    "body": {
+        "serial": "container_containeritembody_5a2a9c6d88a5b696867374",
+        "body": "\n    <div class=\"grid-row\">\n      <div class=\"col-12\">\n        {{interaction_imsportablecustominteraction_5a2a9c6d8d4ac661204810}}\n      <\/div>\n    <\/div>\n  ",
+        "elements": {
+            "interaction_imsportablecustominteraction_5a2a9c6d8d4ac661204810": {
+                "serial": "interaction_imsportablecustominteraction_5a2a9c6d8d4ac661204810",
+                "qtiClass": "customInteraction",
+                "attributes": {
+                    "responseIdentifier": "RESPONSE"
+                },
+                "debug": {
+                    "relatedItem": "item_5a2a9c6d88a7c411343054"
+                },
+                "choices": {},
+                "typeIdentifier": "fractionModelInteraction",
+                "markup": "\n              <div class=\"fractionModelInteraction\">\n                <div class=\"prompt\">\n        \n    <\/div>\n                <div class=\"shape-panel\">\n                  <h3 class=\"shape-title\">Fraction Model<\/h3>\n                  <div class=\"shape-container\"><\/div>\n                  <div class=\"shape-controls\">\n                    <button value=\"fewer\" class=\"fewer btn btn-info\" type=\"button\">Fewer<\/button>\n                    <button value=\"more\" class=\"more btn btn-info\" type=\"button\">More<\/button>\n                    <button value=\"reset\" class=\"reset btn btn-info\" type=\"button\">Reset<\/button>\n                  <\/div>\n                <\/div>\n              <\/div>\n            ",
+                "version": "0.0.0",
+                "properties": {
+                    "title": "Fraction Model",
+                    "radius": "100",
+                    "selectedPartitionsColor": "#ff0000",
+                    "partitionColor": "#ffffff",
+                    "outlineColor": "#000000",
+                    "outlineThickness": "1",
+                    "partitionMax": "12",
+                    "partitionMin": "1",
+                    "partitionInit": "2",
+                    "selectedPartitionsInit": "0",
+                    "selectedPartitions": []
+                },
+                "config": [],
+                "modules": {},
+                "xmlns": "http:\/\/www.imsglobal.org\/xsd\/portableCustomInteraction_v1"
+            }
+        },
+        "debug": {
+            "relatedItem": "item_5a2a9c6d88a7c411343054"
+        }
+    },
+    "debug": {
+        "relatedItem": "item_5a2a9c6d88a7c411343054"
+    },
+    "namespaces": {
+        "": "http:\/\/www.imsglobal.org\/xsd\/imsqti_v2p2",
+        "m": "http:\/\/www.w3.org\/1998\/Math\/MathML",
+        "xsi": "http:\/\/www.w3.org\/2001\/XMLSchema-instance"
+    },
+    "schemaLocations": {
+        "http:\/\/www.imsglobal.org\/xsd\/imsqti_v2p2": "http:\/\/www.imsglobal.org\/xsd\/qti\/qtiv2p2\/imsqti_v2p2.xsd"
+    },
+    "stylesheets": {
+        "stylesheet_5a2a9c6d89e52116738956": {
+            "serial": "stylesheet_5a2a9c6d89e52116738956",
+            "qtiClass": "stylesheet",
+            "attributes": {
+                "href": "style\/custom\/tao-user-styles.css",
+                "type": "text\/css",
+                "media": "all",
+                "title": ""
+            },
+            "debug": {
+                "relatedItem": "item_5a2a9c6d88a7c411343054"
+            }
+        }
+    },
+    "outcomes": {
+        "outcomedeclaration_5a2a9c6d8b0d9090252591": {
+            "identifier": "SCORE",
+            "serial": "outcomedeclaration_5a2a9c6d8b0d9090252591",
+            "qtiClass": "outcomeDeclaration",
+            "attributes": {
+                "identifier": "SCORE",
+                "cardinality": "single",
+                "baseType": "float"
+            },
+            "debug": {
+                "relatedItem": "item_5a2a9c6d88a7c411343054"
+            },
+            "defaultValue": null
+        }
+    },
+    "responses": {
+        "responsedeclaration_5a2a9c6d8aa2d291393912": {
+            "identifier": "RESPONSE",
+            "serial": "responsedeclaration_5a2a9c6d8aa2d291393912",
+            "qtiClass": "responseDeclaration",
+            "attributes": {
+                "identifier": "RESPONSE",
+                "cardinality": "single",
+                "baseType": "string"
+            },
+            "debug": {
+                "relatedItem": "item_5a2a9c6d88a7c411343054"
+            },
+            "defaultValue": [],
+            "mapping": [],
+            "areaMapping": [],
+            "howMatch": null,
+            "correctResponses": [],
+            "mappingAttributes": {
+                "defaultValue": 0
+            },
+            "feedbackRules": {}
+        }
+    },
+    "feedbacks": {},
+    "responseProcessing": {
+        "serial": "response_custom_5a2a9c6d8e69b771189040",
+        "qtiClass": "responseProcessing",
+        "attributes": {},
+        "debug": {
+            "relatedItem": ""
+        },
+        "processingType": "custom",
+        "data": "<responseProcessing>\n    <responseCondition>\n      <responseIf>\n        <equal tolerance=\"0.000000000001\" toleranceMode=\"absolute\">\n          <divide>\n            <customOperator class=\"qti.customOperators.math.fraction.Numerator\">\n              <variable identifier=\"RESPONSE\"\/>\n            <\/customOperator>\n            <customOperator class=\"qti.customOperators.math.fraction.Denominator\">\n              <variable identifier=\"RESPONSE\"\/>\n            <\/customOperator>\n          <\/divide>\n          <divide>\n            <customOperator class=\"qti.customOperators.math.fraction.Numerator\">\n              <correct identifier=\"RESPONSE\"\/>\n            <\/customOperator>\n            <customOperator class=\"qti.customOperators.math.fraction.Denominator\">\n              <correct identifier=\"RESPONSE\"\/>\n            <\/customOperator>\n          <\/divide>\n        <\/equal>\n        <setOutcomeValue identifier=\"SCORE\">\n          <sum>\n            <variable identifier=\"SCORE\"\/>\n            <baseValue baseType=\"float\">1<\/baseValue>\n          <\/sum>\n        <\/setOutcomeValue>\n      <\/responseIf>\n      <responseElse>\n        <setOutcomeValue identifier=\"SCORE\">\n          <baseValue baseType=\"float\">0<\/baseValue>\n        <\/setOutcomeValue>\n      <\/responseElse>\n    <\/responseCondition>\n  <\/responseProcessing>",
+        "responseRules": [
+            {
+                "qtiClass": "responseCondition",
+                "responseIf": {
+                    "qtiClass": "responseIf",
+                    "expression": {
+                        "qtiClass": "equal",
+                        "attributes": {
+                            "tolerance": "0.000000000001",
+                            "toleranceMode": "absolute"
+                        },
+                        "expressions": [
+                            {
+                                "qtiClass": "divide",
+                                "expressions": [
+                                    {
+                                        "qtiClass": "customOperator",
+                                        "attributes": {
+                                            "class": "qti.customOperators.math.fraction.Numerator"
+                                        },
+                                        "expressions": [
+                                            {
+                                                "qtiClass": "variable",
+                                                "attributes": {
+                                                    "identifier": "RESPONSE"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "qtiClass": "customOperator",
+                                        "attributes": {
+                                            "class": "qti.customOperators.math.fraction.Denominator"
+                                        },
+                                        "expressions": [
+                                            {
+                                                "qtiClass": "variable",
+                                                "attributes": {
+                                                    "identifier": "RESPONSE"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "qtiClass": "divide",
+                                "expressions": [
+                                    {
+                                        "qtiClass": "customOperator",
+                                        "attributes": {
+                                            "class": "qti.customOperators.math.fraction.Numerator"
+                                        },
+                                        "expressions": [
+                                            {
+                                                "qtiClass": "correct",
+                                                "attributes": {
+                                                    "identifier": "RESPONSE"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "qtiClass": "customOperator",
+                                        "attributes": {
+                                            "class": "qti.customOperators.math.fraction.Denominator"
+                                        },
+                                        "expressions": [
+                                            {
+                                                "qtiClass": "correct",
+                                                "attributes": {
+                                                    "identifier": "RESPONSE"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "responseRules": [
+                        {
+                            "qtiClass": "setOutcomeValue",
+                            "attributes": {
+                                "identifier": "SCORE"
+                            },
+                            "expression": {
+                                "qtiClass": "sum",
+                                "expressions": [
+                                    {
+                                        "qtiClass": "variable",
+                                        "attributes": {
+                                            "identifier": "SCORE"
+                                        }
+                                    },
+                                    {
+                                        "qtiClass": "baseValue",
+                                        "attributes": {
+                                            "baseType": "float"
+                                        },
+                                        "value": "1"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "responseElse": {
+                    "qtiClass": "responseElse",
+                    "responseRules": [
+                        {
+                            "qtiClass": "setOutcomeValue",
+                            "attributes": {
+                                "identifier": "SCORE"
+                            },
+                            "expression": {
+                                "qtiClass": "baseValue",
+                                "attributes": {
+                                    "baseType": "float"
+                                },
+                                "value": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "apipAccessibility": ""
+}

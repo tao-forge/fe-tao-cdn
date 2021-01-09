@@ -1,0 +1,184 @@
+{
+    "identifier": "i15124807543640118",
+    "serial": "item_5a28076ba08b1552529101",
+    "qtiClass": "assessmentItem",
+    "attributes": {
+        "identifier": "i15124807543640118",
+        "title": "LineAndPoint",
+        "label": "LineAndPoint",
+        "xml:lang": "en-US",
+        "adaptive": false,
+        "timeDependent": false,
+        "toolName": "TAO",
+        "toolVersion": "3.3.0-sprint64 1\/2",
+        "class": ""
+    },
+    "body": {
+        "serial": "container_containeritembody_5a28076ba0895178670120",
+        "body": "\n        <div class=\"grid-row\">\n            <div class=\"col-12\">\n                {{interaction_imsportablecustominteraction_5a28076ba23ad923027205}}\n            <\/div>\n        <\/div>\n    ",
+        "elements": {
+            "interaction_imsportablecustominteraction_5a28076ba23ad923027205": {
+                "serial": "interaction_imsportablecustominteraction_5a28076ba23ad923027205",
+                "qtiClass": "customInteraction",
+                "attributes": {
+                    "responseIdentifier": "RESPONSE"
+                },
+                "debug": {
+                    "relatedItem": "item_5a28076ba08b1552529101"
+                },
+                "choices": {},
+                "typeIdentifier": "graphLineAndPointInteraction",
+                "markup": "\n                            <div class=\"pointAndLineFunctionInteraction\">\n                                <div class=\"shape-panel\">\n                                    <div class=\"shape-controls\">\n                                        <!-- Controls will be inserted here -->\n                                    <\/div>\n                                    <div class=\"templates\">\n                                        <div class=\"template-lines\">\n                                            <div class=\"button-container clearfix\">\n                                                <button class=\"btn btn-info\" name=\"line\"><\/button>\n                                                <div class=\"triangle\"><\/div>\n                                                <ul class=\"plain line-styles\">\n                                                    <li>\n                                                        <label>\n                                                            <input name=\"line-style\" type=\"radio\" value=\"\"><\/input>\n                                                            <span class=\"icon-radio\"><\/span>\n                                                            <span class=\"line-style line-style-plain\"><\/span>\n                                                        <\/label>\n                                                    <\/li>\n                                                    <li>\n                                                        <label>\n                                                            <input name=\"line-style\" type=\"radio\" value=\"-\"><\/input>\n                                                            <span class=\"icon-radio\"><\/span>\n                                                            <span class=\"line-style line-style-dashed\"><\/span>\n                                                        <\/label>\n                                                    <\/li>\n                                                <\/ul>\n                                            <\/div>\n                                        <\/div>\n                                        <div class=\"template-points\">\n                                            <div class=\"button-container clearfix\">\n                                                <button class=\"btn btn-info\" name=\"point\"><\/button>\n                                                <div class=\"triangle\"><\/div>\n                                            <\/div>\n                                        <\/div>\n                                        <div class=\"template-segments\">\n                                            <div class=\"button-container clearfix\">\n                                                <button class=\"btn btn-info\" name=\"segment\"><\/button>\n                                                <div class=\"triangle\"><\/div>\n                                                <ul class=\"plain line-styles\">\n                                                    <li>\n                                                        <label>\n                                                            <input name=\"line-style\" type=\"radio\" value=\"\"><\/input>\n                                                            <span class=\"icon-radio\"><\/span>\n                                                            <span class=\"line-style line-style-plain\"><\/span>\n                                                        <\/label>\n                                                    <\/li>\n                                                    <li>\n                                                        <label>\n                                                            <input name=\"line-style\" type=\"radio\" value=\"-\"><\/input>\n                                                            <span class=\"icon-radio\"><\/span>\n                                                            <span class=\"line-style line-style-dashed\"><\/span>\n                                                        <\/label>\n                                                    <\/li>\n                                                <\/ul>\n                                            <\/div>\n                                        <\/div>\n                                        <div class=\"template-solutionSet\">\n                                            <div class=\"button-container clearfix graph-solutionSet deactivated\">\n                                                <button class=\"btn btn-info\" name=\"solutionSet\"><\/button>\n                                                <div class=\"triangle\"><\/div>\n                                            <\/div>\n                                        <\/div>\n                                        <div class=\"template-setPoints\">\n                                            <div class=\"button-container clearfix\">\n                                                <button class=\"btn btn-info\" name=\"setPoints\"><\/button>\n                                                <div class=\"triangle\"><\/div>\n                                            <\/div>\n                                        <\/div>\n                                    <\/div>\n                                    <div class=\"shape-container\"><\/div>\n                                <\/div>\n                            <\/div>\n                        ",
+                "version": "0.0.0",
+                "properties": {
+                    "graphs": "{\"points\":{\"label\":\"Points\",\"count\":1,\"elements\":[{\"label\":\"Point A\",\"uid\":\"points_1\",\"pointColor\":\"#054872\",\"pointRadius\":10,\"max\":1,\"maximumPoints\":1}]},\"setPoints\":{\"label\":\"Sets of Points\",\"count\":1,\"elements\":[{\"label\":\"Point Set A\",\"uid\":\"setPoints_3\",\"pointColor\":\"#1c7f01\",\"maximumPoints\":5,\"pointRadius\":10}]},\"segments\":{\"label\":\"Segments\",\"count\":1,\"elements\":[{\"label\":\"Segment A\",\"uid\":\"segments_4\",\"pointColor\":\"#e1e510\",\"lineColor\":\"#e1e510\",\"lineStyle\":\"\",\"lineStyleToggle\":false,\"lineWeight\":3,\"pointRadius\":10,\"segment\":true}]},\"lines\":{\"label\":\"Lines\",\"count\":1,\"elements\":[{\"label\":\"Line A\",\"uid\":\"lines_6\",\"pointColor\":\"#87020d\",\"lineColor\":\"#87020d\",\"lineStyle\":\"\",\"lineStyleToggle\":false,\"lineWeight\":3,\"pointRadius\":10}]},\"solutionSet\":{\"label\":\"Solution Sets\",\"count\":1,\"elements\":[{\"label\":\"Solution Set\",\"uid\":\"solutionSet_8\",\"color\":\"#326399\"}]}}",
+                    "xMin": "-10",
+                    "xMax": "10",
+                    "yMin": "-10",
+                    "yMax": "10"
+                },
+                "config": [],
+                "modules": {},
+                "xmlns": "http:\/\/www.imsglobal.org\/xsd\/portableCustomInteraction_v1"
+            }
+        },
+        "debug": {
+            "relatedItem": "item_5a28076ba08b1552529101"
+        }
+    },
+    "debug": {
+        "relatedItem": "item_5a28076ba08b1552529101"
+    },
+    "namespaces": {
+        "": "http:\/\/www.imsglobal.org\/xsd\/imsqti_v2p2",
+        "html5": "html5",
+        "m": "http:\/\/www.w3.org\/1998\/Math\/MathML",
+        "xsi": "http:\/\/www.w3.org\/2001\/XMLSchema-instance"
+    },
+    "schemaLocations": {
+        "http:\/\/www.imsglobal.org\/xsd\/imsqti_v2p2": "http:\/\/www.imsglobal.org\/xsd\/qti\/qtiv2p2\/imsqti_v2p2.xsd"
+    },
+    "stylesheets": {
+        "stylesheet_5a28076ba0e26986760465": {
+            "serial": "stylesheet_5a28076ba0e26986760465",
+            "qtiClass": "stylesheet",
+            "attributes": {
+                "href": "style\/custom\/tao-user-styles.css",
+                "type": "text\/css",
+                "media": "all",
+                "title": ""
+            },
+            "debug": {
+                "relatedItem": "item_5a28076ba08b1552529101"
+            }
+        }
+    },
+    "outcomes": {
+        "outcomedeclaration_5a28076ba1527174460732": {
+            "identifier": "SCORE",
+            "serial": "outcomedeclaration_5a28076ba1527174460732",
+            "qtiClass": "outcomeDeclaration",
+            "attributes": {
+                "identifier": "SCORE",
+                "cardinality": "single",
+                "baseType": "float"
+            },
+            "debug": {
+                "relatedItem": "item_5a28076ba08b1552529101"
+            },
+            "defaultValue": null
+        }
+    },
+    "responses": {
+        "responsedeclaration_5a28076ba131e052275057": {
+            "identifier": "RESPONSE",
+            "serial": "responsedeclaration_5a28076ba131e052275057",
+            "qtiClass": "responseDeclaration",
+            "attributes": {
+                "identifier": "RESPONSE",
+                "cardinality": "record"
+            },
+            "debug": {
+                "relatedItem": "item_5a28076ba08b1552529101"
+            },
+            "defaultValue": [],
+            "mapping": [],
+            "areaMapping": [],
+            "howMatch": "http:\/\/www.imsglobal.org\/question\/qti_v2p1\/rptemplates\/match_correct",
+            "correctResponses": [],
+            "mappingAttributes": {
+                "defaultValue": 0
+            },
+            "feedbackRules": {}
+        }
+    },
+    "feedbacks": {},
+    "responseProcessing": {
+        "serial": "response_templatesdriven_5a28076ba29dc028987219",
+        "qtiClass": "responseProcessing",
+        "attributes": {},
+        "debug": {
+            "relatedItem": "item_5a28076ba08b1552529101"
+        },
+        "processingType": "templateDriven",
+        "responseRules": [
+            {
+                "qtiClass": "responseCondition",
+                "responseIf": {
+                    "qtiClass": "responseIf",
+                    "expression": {
+                        "qtiClass": "match",
+                        "expressions": [
+                            {
+                                "qtiClass": "variable",
+                                "attributes": {
+                                    "identifier": "RESPONSE"
+                                }
+                            },
+                            {
+                                "qtiClass": "correct",
+                                "attributes": {
+                                    "identifier": "RESPONSE"
+                                }
+                            }
+                        ]
+                    },
+                    "responseRules": [
+                        {
+                            "qtiClass": "setOutcomeValue",
+                            "attributes": {
+                                "identifier": "SCORE"
+                            },
+                            "expression": {
+                                "qtiClass": "baseValue",
+                                "attributes": {
+                                    "baseType": "float"
+                                },
+                                "value": "1"
+                            }
+                        }
+                    ]
+                },
+                "responseElse": {
+                    "qtiClass": "responseElse",
+                    "responseRules": [
+                        {
+                            "qtiClass": "setOutcomeValue",
+                            "attributes": {
+                                "identifier": "SCORE"
+                            },
+                            "expression": {
+                                "qtiClass": "baseValue",
+                                "attributes": {
+                                    "baseType": "float"
+                                },
+                                "value": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "apipAccessibility": ""
+}

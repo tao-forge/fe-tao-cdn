@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessmentItem xmlns="http://www.imsglobal.org/xsd/imsqti_v2p2" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsqti_v2p2 http://www.imsglobal.org/xsd/qti/qtiv2p2/imsqti_v2p2.xsd" identifier="i1512735831659316" title="PointLIneGraph" label="PointLIneGraph" xml:lang="en-US" adaptive="false" timeDependent="false" toolName="TAO" toolVersion="3.3.0-sprint64 1/2">
+    <responseDeclaration identifier="RESPONSE" cardinality="multiple" baseType="string"/>
+    <outcomeDeclaration identifier="SCORE" cardinality="single" baseType="float"/>
+    <stylesheet href="style/custom/tao-user-styles.css" type="text/css" media="all" title=""/>
+    <itemBody>
+        <div class="grid-row">
+            <div class="col-12">
+                <customInteraction responseIdentifier="RESPONSE">
+                    <portableCustomInteraction xmlns="http://www.imsglobal.org/xsd/portableCustomInteraction_v1" customInteractionTypeIdentifier="graphPointLineGraphInteraction" data-version="">
+                        <properties>
+                            <property key="draggable">true</property>
+                            <property key="graphTitle">Graph Test</property>
+                            <property key="graphTitleRequired">true</property>
+                            <property key="graphType">line</property>
+                            <property key="maxPoints">6</property>
+                            <property key="plotColor">#0000FF</property>
+                            <property key="plotThickness">6</property>
+                            <property key="pointColor">#0000FF</property>
+                            <property key="pointGlow">true</property>
+                            <property key="pointRadius">8</property>
+                            <property key="segment">true</property>
+                            <property key="weight">1</property>
+                            <property key="width">450</property>
+                            <property key="height">300</property>
+                            <property key="staticPoints">[]</property>
+                            <property key="staticPointColor">#AA00AA</property>
+                            <property key="staticPointGlow"/>
+                            <property key="staticPointRadius">6</property>
+                            <property key="staticPointLabelSize">10</property>
+                            <property key="staticPointLabelWeight">0</property>
+                            <property key="staticPointLabelColor">#FFF</property>
+                            <property key="staticDisplayPoints">true</property>
+                            <property key="staticLineColor">#AA00AA</property>
+                            <property key="staticLineThickness">4</property>
+                            <property key="staticShowLine">true</property>
+                            <property key="xAllowOuter">true</property>
+                            <property key="xBorderWeight">3</property>
+                            <property key="xStep">1</property>
+                            <property key="xLabel">t</property>
+                            <property key="xTitle">Time</property>
+                            <property key="xStart">0</property>
+                            <property key="xEnd">7</property>
+                            <property key="xSubStep">2</property>
+                            <property key="xWeight">3</property>
+                            <property key="yAllowOuter">true</property>
+                            <property key="yBorderWeight">3</property>
+                            <property key="yStep">10</property>
+                            <property key="yLabel">P</property>
+                            <property key="yTitle">Power</property>
+                            <property key="yStart">0</property>
+                            <property key="yEnd">100</property>
+                            <property key="ySubStep">2</property>
+                            <property key="yWeight">3</property>
+                        </properties>
+                        <modules>
+                        </modules>
+                        <markup xmlns="http://www.w3.org/1999/xhtml">
+                            <div class="graphPointLineGraphInteraction">
+                                <div class="shape-panel">
+                                    <div class="shape-container"/>
+                                </div>
+                            </div>
+                        </markup>
+                    </portableCustomInteraction>
+                </customInteraction>
+            </div>
+        </div>
+    </itemBody>
+    <responseProcessing template="http://www.imsglobal.org/question/qti_v2p1/rptemplates/match_correct"/>
+</assessmentItem>
